@@ -19,7 +19,7 @@ package utils
 import (
 	"strings"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
 )
 
 func IsMapJobType(executeMode string) bool {

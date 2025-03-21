@@ -31,17 +31,17 @@ import (
 	"github.com/shirou/gopsutil/v4/load"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/config"
-	"github.com/alibaba/schedulerx-worker-go/internal/discovery"
-	"github.com/alibaba/schedulerx-worker-go/internal/masterpool"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/akka"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/codec"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/pool"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/trans"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/internal/version"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/config"
+	"github.com/moling1234/schedulerx-worker-go/internal/discovery"
+	"github.com/moling1234/schedulerx-worker-go/internal/masterpool"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/akka"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/codec"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/pool"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/trans"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/internal/version"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var (

@@ -23,20 +23,20 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/alibaba/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor"
 
 	"github.com/asynkron/protoactor-go/actor"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/actor/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/master"
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/masterpool"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/pool"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	actorcomm "github.com/moling1234/schedulerx-worker-go/internal/actor/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/master"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/masterpool"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/pool"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var _ actor.Actor = &jobInstanceActor{}

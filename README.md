@@ -27,7 +27,7 @@ appKey=xxx
 ### 2. 拉取 Go 版本 SDK
 
 ```
-go get github.com/alibaba/schedulerx-worker-go@{最新的tag}
+go get github.com/moling1234/schedulerx-worker-go@{最新的tag}
 ```
 
 ### 3. 实现接口，编写业务代码
@@ -50,8 +50,8 @@ import (
 	"fmt"
 	"time"
 
- 	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
+ 	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
 )
 
 var _ processor.Processor = &HelloWorld{}
@@ -94,9 +94,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 	"math/rand"
 	"strconv"
 )
@@ -168,9 +168,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
-	"github.com/alibaba/schedulerx-worker-go/processor/mapjob"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/mapjob"
 	"strconv"
 	"time"
 )
@@ -256,10 +256,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
-	"github.com/alibaba/schedulerx-worker-go/processor/mapjob"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/mapjob"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 	"strconv"
 	"time"
 )
@@ -355,7 +355,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go"
+	"github.com/moling1234/schedulerx-worker-go"
 )
 
 func main() {

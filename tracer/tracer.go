@@ -19,8 +19,8 @@ package tracer
 import (
 	"sync"
 
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
 )
 
 var (

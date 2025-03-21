@@ -21,9 +21,9 @@ import (
 	"math/rand"
 	"strconv"
 
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 )
 
 var _ processor.BroadcastProcessor = &TestBroadcast{}

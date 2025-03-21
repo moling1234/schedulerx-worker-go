@@ -19,10 +19,10 @@ package masterpool
 import (
 	"sync"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/tasks"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/tasks"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var (

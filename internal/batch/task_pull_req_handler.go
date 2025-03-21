@@ -17,9 +17,9 @@
 package batch
 
 import (
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var _ TaskDispatchReqHandler = &TaskPullReqHandler{}

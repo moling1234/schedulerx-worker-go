@@ -16,7 +16,7 @@
 
 package utils
 
-import "github.com/alibaba/schedulerx-worker-go/internal/common"
+import "github.com/moling1234/schedulerx-worker-go/internal/common"
 
 type LimitedQueue struct {
 	limit int

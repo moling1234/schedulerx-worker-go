@@ -24,8 +24,8 @@ import (
 	"github.com/panjf2000/ants/v2"
 	"go.uber.org/atomic"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/masterpool"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/masterpool"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var _ ReqHandler = &BaseReqHandler{}

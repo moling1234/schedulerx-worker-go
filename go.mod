@@ -5,7 +5,6 @@ go 1.22.0
 toolchain go1.23.0
 
 require (
-	github.com/alibaba/schedulerx-worker-go v1.0.8
 	github.com/asynkron/protoactor-go v0.0.0-20230916135836-b14bb1f51af6
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/natefinch/lumberjack v2.0.0+incompatible
@@ -19,6 +18,7 @@ require (
 )
 
 require (
+	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/Workiva/go-datastructures v1.1.1 // indirect
 	github.com/asynkron/gofun v0.0.0-20220329210725-34fed760f4c2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -39,7 +39,6 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.62.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -58,6 +57,7 @@ require (
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 )
 
 retract (

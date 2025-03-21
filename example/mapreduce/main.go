@@ -22,8 +22,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go"
-	"github.com/alibaba/schedulerx-worker-go/processor/mapjob"
+	"github.com/moling1234/schedulerx-worker-go"
+	"github.com/moling1234/schedulerx-worker-go/processor/mapjob"
 )
 
 func main() {

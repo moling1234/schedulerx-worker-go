@@ -22,7 +22,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go"
+	"github.com/moling1234/schedulerx-worker-go"
 )
 
 func main() {

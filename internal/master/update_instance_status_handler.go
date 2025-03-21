@@ -17,10 +17,10 @@
 package master
 
 import (
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/masterpool"
-	"github.com/alibaba/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/masterpool"
+	"github.com/moling1234/schedulerx-worker-go/processor"
 )
 
 var _ UpdateInstanceStatusHandler = &baseUpdateInstanceStatusHandler{}

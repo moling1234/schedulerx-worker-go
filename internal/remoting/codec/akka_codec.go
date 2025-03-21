@@ -21,9 +21,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/akka"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/akka"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
 )
 
 type Options struct {

@@ -17,7 +17,7 @@
 package processor
 
 import (
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
 )
 
 type Processor interface {

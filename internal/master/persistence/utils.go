@@ -21,8 +21,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 // SQLTxFunc is a function that will be called with an initialized 'DbTx' object

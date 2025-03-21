@@ -24,14 +24,14 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/actor/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/discovery"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/logger"
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/mapjob/bizsubtask"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	actorcomm "github.com/moling1234/schedulerx-worker-go/internal/actor/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/discovery"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/mapjob/bizsubtask"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 )
 
 var _ TaskPersistence = &ServerTaskPersistence{}

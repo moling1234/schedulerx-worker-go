@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
 )
 
 var (

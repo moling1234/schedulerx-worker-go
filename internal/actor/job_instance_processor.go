@@ -22,14 +22,14 @@ import (
 	"github.com/asynkron/protoactor-go/actor"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/actor/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/akka"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/codec"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/pool"
-	"github.com/alibaba/schedulerx-worker-go/internal/remoting/trans"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	actorcomm "github.com/moling1234/schedulerx-worker-go/internal/actor/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/akka"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/codec"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/pool"
+	"github.com/moling1234/schedulerx-worker-go/internal/remoting/trans"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var _ actor.Process = &jobInstanceProcessor{}

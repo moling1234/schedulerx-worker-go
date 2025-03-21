@@ -21,11 +21,11 @@ import (
 
 	"github.com/asynkron/protoactor-go/actor"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/constants"
-	"github.com/alibaba/schedulerx-worker-go/internal/master/persistence"
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/constants"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/persistence"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
 )
 
 var _ taskmaster.MapTaskMaster = &BatchTaskMaster{}

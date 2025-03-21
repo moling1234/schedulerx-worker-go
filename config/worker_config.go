@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/constants"
+	"github.com/moling1234/schedulerx-worker-go/internal/constants"
 )
 
 var (

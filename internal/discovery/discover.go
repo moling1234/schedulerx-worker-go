@@ -26,8 +26,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/openapi"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/openapi"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 const (

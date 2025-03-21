@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 var (

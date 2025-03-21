@@ -17,8 +17,8 @@
 package actorcomm
 
 import (
-	"github.com/alibaba/schedulerx-worker-go/config"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/config"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
 )
 
 var (

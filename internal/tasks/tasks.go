@@ -19,7 +19,7 @@ package tasks
 import (
 	"sync"
 
-	"github.com/alibaba/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor"
 )
 
 var taskMap = &TaskMap{tasks: sync.Map{}}

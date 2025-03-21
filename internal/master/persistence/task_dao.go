@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 )
 
 type TaskDao struct {

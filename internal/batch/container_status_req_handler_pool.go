@@ -19,7 +19,7 @@ package batch
 import (
 	"sync"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
 )
 
 var (

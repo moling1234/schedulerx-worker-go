@@ -24,7 +24,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/akka"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/akka"
 )
 
 func WriteAkkaMsg(msg *akka.AkkaProtocolMessage, conn net.Conn) error {

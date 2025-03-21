@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/alibaba/schedulerx-worker-go/internal/common"
-	"github.com/alibaba/schedulerx-worker-go/processor/taskstatus"
+	"github.com/moling1234/schedulerx-worker-go/internal/common"
+	"github.com/moling1234/schedulerx-worker-go/processor/taskstatus"
 )
 
 var _ context.Context = &JobContext{}

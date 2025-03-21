@@ -19,10 +19,10 @@ package batch
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/config"
-	"github.com/alibaba/schedulerx-worker-go/internal/actor/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/config"
+	actorcomm "github.com/moling1234/schedulerx-worker-go/internal/actor/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 // ContainerStatusReqHandler batch report container task status to task master

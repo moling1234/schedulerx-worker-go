@@ -17,8 +17,8 @@
 package master
 
 import (
-	"github.com/alibaba/schedulerx-worker-go/internal/utils"
-	"github.com/alibaba/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/internal/utils"
+	"github.com/moling1234/schedulerx-worker-go/logger"
 )
 
 // TimeQueue Time queue sorted by scheduling time and task priority

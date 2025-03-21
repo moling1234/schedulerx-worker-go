@@ -16,7 +16,7 @@
 
 package common
 
-import "github.com/alibaba/schedulerx-worker-go/internal/constants"
+import "github.com/moling1234/schedulerx-worker-go/internal/constants"
 
 type MapTaskXAttrs struct {
 	// ConsumerSize is the maximum number of threads triggered for execution on a single machine during a single run, default value is 5

@@ -25,16 +25,16 @@ import (
 	"github.com/asynkron/protoactor-go/actor"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/alibaba/schedulerx-worker-go/config"
-	"github.com/alibaba/schedulerx-worker-go/internal/actor/common"
-	"github.com/alibaba/schedulerx-worker-go/internal/constants"
-	"github.com/alibaba/schedulerx-worker-go/internal/master/taskmaster"
-	"github.com/alibaba/schedulerx-worker-go/internal/masterpool"
-	"github.com/alibaba/schedulerx-worker-go/internal/proto/schedulerx"
-	"github.com/alibaba/schedulerx-worker-go/logger"
-	"github.com/alibaba/schedulerx-worker-go/processor"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
-	"github.com/alibaba/schedulerx-worker-go/processor/mapjob/bizsubtask"
+	"github.com/moling1234/schedulerx-worker-go/config"
+	actorcomm "github.com/moling1234/schedulerx-worker-go/internal/actor/common"
+	"github.com/moling1234/schedulerx-worker-go/internal/constants"
+	"github.com/moling1234/schedulerx-worker-go/internal/master/taskmaster"
+	"github.com/moling1234/schedulerx-worker-go/internal/masterpool"
+	"github.com/moling1234/schedulerx-worker-go/internal/proto/schedulerx"
+	"github.com/moling1234/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/processor"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/processor/mapjob/bizsubtask"
 )
 
 var _ processor.MapJobProcessor = &MapJobProcessor{}

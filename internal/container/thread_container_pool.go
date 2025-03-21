@@ -23,9 +23,9 @@ import (
 
 	"github.com/panjf2000/ants/v2"
 
-	"github.com/alibaba/schedulerx-worker-go/config"
-	"github.com/alibaba/schedulerx-worker-go/logger"
-	"github.com/alibaba/schedulerx-worker-go/processor/jobcontext"
+	"github.com/moling1234/schedulerx-worker-go/config"
+	"github.com/moling1234/schedulerx-worker-go/logger"
+	"github.com/moling1234/schedulerx-worker-go/processor/jobcontext"
 )
 
 var (
