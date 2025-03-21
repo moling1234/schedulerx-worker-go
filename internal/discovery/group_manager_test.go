@@ -29,12 +29,13 @@ import (
 
 func TestNewGroupManager(t *testing.T) {
 	var (
-		groupId = "133144"
-		appKey  = "123123"
+		groupId = "awe"
+		appKey  = "804m3Ng39JLPtmmx8LUsPg"
 	)
 	client := openapi.NewClient(
 		openapi.WithHTTPClient(*http.DefaultClient),
-		openapi.WithNamespace("d3f7df06-66a2-4331-b90c-89023b2e2413"),
+		openapi.WithOpenAPIEndpoint("acm.aliyun.com"),
+		openapi.WithNamespace("5e8bfff9-bd57-4777-a228-522fcd5f8bad"),
 		openapi.WithGroupId(groupId),
 		openapi.WithAppKey(appKey),
 	)
